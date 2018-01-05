@@ -6,6 +6,11 @@ This repo is local repo with POM for Android library
 * library: https://github.com/ddsakura/androidlibtest/blob/master/mylibrary/build.gradle
 * app: https://github.com/ddsakura/androidlibtest/blob/master/app/build.gradle#L23
 
+# command example
+```
+./gradlew clean :mylibrary:assembleRelease
+./gradlew :mylibrary:publish
+```
 
 # ref: 
 * https://guides.codepath.com/android/Building-your-own-Android-library
